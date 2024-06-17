@@ -46,6 +46,17 @@ styled with Tailwind CSS by default. You can opt-out of Tailwind CSS with the `-
 flag (the Tailwind CSS classes are kept in the generated components as reference for
 future styling).
 
+## 1.7.13
+
+### JavaScript Client Bug Fixes
+  * Fix error when creating Socket without sessionStorage if it is not available
+
+### Enhancements
+  * Avoid warning from bug found by Elixir 1.17's type system
+  * Add follow_redirect/2 to `Phoenix.ConnTest`
+  * [phx.new] Allow mix ecto.setup from the umbrella root
+  * [phx.new] Disable fallback checkbox if input is disabled
+
 ## 1.7.12 (2024-04-11)
 
 ### JavaScript Client Bug Fixes
