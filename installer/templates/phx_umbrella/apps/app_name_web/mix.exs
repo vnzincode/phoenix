@@ -37,8 +37,8 @@ defmodule <%= @web_namespace %>.MixProject do
   defp deps do
     [
       <%= @phoenix_dep %>,<%= if @ecto do %>
-      {:phoenix_ecto, "~> 4.5"},<% end %><%= if @html do %>
-      {:phoenix_html, "~> 4.1"},
+      {:phoenix_ecto, "~> 4.4"},<% end %><%= if @html do %>
+      {:phoenix_html, "~> 4.0"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       # TODO bump on release to {:phoenix_live_view, "~> 1.0.0"},
       {:phoenix_live_view, "~> 1.0.0-rc.0", override: true},
